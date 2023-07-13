@@ -36,14 +36,7 @@ function App() {
       <Navbar link="About" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
       <div className="container my-3">
-        {/* <Switch>
-          <Route exact path="/testutils-dev/about">
-            <About />
-          </Route>
-          <Route exact path="/">
-            
-          </Route>
-        </Switch> */}
+        
         <TextForm
               heading="Enter your views"
               mode={mode}
