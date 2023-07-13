@@ -32,7 +32,6 @@ function App() {
 
   return (
     <>
-    {/* <Router> */}
       <Navbar link="About" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
       <div className="container my-3">
@@ -43,7 +42,6 @@ function App() {
               showAlert={showAlert}
             />
       </div>
-      {/* </Router> */}
     </>
   );
 }
