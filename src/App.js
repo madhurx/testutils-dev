@@ -41,13 +41,14 @@ function App() {
             <About />
           </Route>
           <Route exact path="/">
-            <TextForm
+            
+          </Route>
+        </Switch> */}
+        <TextForm
               heading="Enter your views"
               mode={mode}
               showAlert={showAlert}
             />
-          </Route>
-        </Switch> */}
       </div>
       {/* </Router> */}
     </>
